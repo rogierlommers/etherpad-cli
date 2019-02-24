@@ -29,7 +29,9 @@ func Execute() {
 }
 
 func init() {
-	cobra.OnInitialize(initConfig)
+	if len(os.Args) != 1 && os.Args[1] != "setconfig" {
+		cobra.OnInitialize(initConfig)
+	}
 }
 
 // initConfig reads in config file and ENV variables if set.

@@ -23,6 +23,10 @@ Run etherpad-cli with `setconfig` parameter. It will ask for the etherpad `hostn
 
 After this, you can start using etherpad-cli.
 
+## example usage
+
+![Colored](https://i.imgur.com/4OBjxb0.gif)
+
 ## options
 
 ```
