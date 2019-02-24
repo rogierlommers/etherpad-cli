@@ -1,2 +1,5 @@
 
 /.idea/
+/binary/darwin/etherpad-cli
+/binary/linux/etherpad-cli
+/binary/windows/etherpad-cli.exe
