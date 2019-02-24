@@ -19,13 +19,11 @@ sudo curl -L "https://github.com/rogierlommers/etherpad-cli/releases/download/1/
 download [binary](https://github.com/rogierlommers/etherpad-cli/releases/download/1/etherpad-cli.exe) and put somewhere in path.
 
 ## first time use
-Run etherpad-cli with `setconfig` parameter. It will ask for the etherpad `hostname` and `token`. Values will be stored in your home folder, `$HOME/.etherpad-cli.json`.
-
-After this, you can start using etherpad-cli.
+Run etherpad-cli with `setconfig` parameter. It will ask for the etherpad `hostname` and `token`. Values will be stored in your home folder, `$HOME/.etherpad-cli.json`. After this, you can start using etherpad-cli.
 
 ## example usage
 
-![Colored](https://i.imgur.com/5f1zoVY.mp4)
+![Colored](https://media.giphy.com/media/9ralaGbqA82ADvhyFn/giphy.gif)
 
 ## options
 
