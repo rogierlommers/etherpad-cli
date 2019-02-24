@@ -8,20 +8,19 @@ import (
 	"path"
 	"strings"
 
-	"github.com/mitchellh/go-homedir"
-
+	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
 
-var configCmd = &cobra.Command{
-	Use:   "config",
+var setconfigCmd = &cobra.Command{
+	Use:   "setconfig",
 	Short: "write mandatory settings in config file",
 	Run:   writeConfig,
 }
 
 func init() {
-	rootCmd.AddCommand(configCmd)
+	rootCmd.AddCommand(setconfigCmd)
 }
 
 func writeConfig(cmd *cobra.Command, args []string) {
