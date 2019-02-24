@@ -12,7 +12,7 @@ curl -L "https://github.com/rogierlommers/etherpad-cli/releases/download/1/ether
 ### Linux
 
 ```
-curl -L "https://github.com/rogierlommers/etherpad-cli/releases/download/1/etherpad-cli-linux" -o /usr/local/bin/etherpad-cli && chmod +x /usr/local/bin/etherpad-cli
+sudo curl -L "https://github.com/rogierlommers/etherpad-cli/releases/download/1/etherpad-cli-linux" -o /usr/local/bin/etherpad-cli && sudo chmod +x /usr/local/bin/etherpad-cli
 ```
 
 ### Windows
