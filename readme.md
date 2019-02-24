@@ -25,7 +25,7 @@ After this, you can start using etherpad-cli.
 
 ## example usage
 
-![Colored](https://i.imgur.com/4OBjxb0.gif)
+![Colored](https://i.imgur.com/5f1zoVY.mp4)
 
 ## options
 
